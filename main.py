@@ -22,7 +22,7 @@ class model_input(BaseModel):
     drinking_status: int
     age: int
     
-diabetes_model = joblib.load("rsf_best.pkl")
+diabetes_model = joblib.load("rsf_best.lzma")
 
 @app.post('/diabetes_pred_time')
 def diabetes_pred_time(input_parameters: model_input):
