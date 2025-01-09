@@ -6,3 +6,4 @@ fastapi
 pydantic
 pandas
 numpy
+scikit-survival
