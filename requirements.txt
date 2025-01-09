@@ -4,6 +4,3 @@ joblib
 uvicorn
 fastapi
 pydantic
-pandas
-numpy
-scikit-survival
