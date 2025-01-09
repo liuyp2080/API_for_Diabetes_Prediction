@@ -7,11 +7,8 @@ import uvicorn
 import os
 import pandas as pd
 import numpy as np
-from dotenv import load_dotenv
 
-load_dotenv()
-root_path = os.getenv("SCRIPT_NAME", "")
-app = FastAPI(root_path=root_path)
+app = FastAPI()
 
 class model_input(BaseModel):
     fasting_plasma_glucose: float
